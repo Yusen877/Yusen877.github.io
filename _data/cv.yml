@@ -2,24 +2,22 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yusen Wu
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Maryland, Baltimore County, USA
+      year: 2022
       description:
-        - Description 1.
+        - Description 1 for Yusen.
         - Description 2.
         - title: Description 3.
           contents:
-            - Sub-description 1.
+            - Sub-description 1 for Yusen 2.
             - Sub-description 2.
     - title: Federal teaching diploma
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
@@ -82,16 +80,11 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Blockchain.
       items:
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Distributed System
       items:
         - Description 1.
         - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
